@@ -15,13 +15,15 @@
 
     <main>
         <section class="search-area">
-            <h3>Search for a City</h3>
-            <input id="searchTerm" type="text">
-            <button>Search</button>
+            <label for="cityInput">Enter City Name: </label>
+            <input type="text" id="cityInput">
+            <button id="searchButton">Search</button>
             
         </section>
         <section class="weather">
-
+            <p>Temperature: <span id="temperature"></span>°C</p>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind Speed: <span id="windSpeed"></span> m/s</p>
         </section>
     </main>
     <script src="./assets/js/script.js"></script>
